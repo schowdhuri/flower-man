@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Gothic;
+    src: url("../fonts/Quicksand/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-family: Gothic-Bold;
+    src: url("../fonts/Quicksand/Quicksand-SemiBold.ttf");
+}
+
+.nav-link {
+    font-family: Gothic;
+}
+
+.non-mobile-nav-item {
+    display: none;
+}
+
+#home-link {
+    display: flex;
+}
+
+.home-logo {
+    width: 100px;
+}
+
+#menu-link {
+    display: flex;
+    margin-left: auto;
+    padding: .5rem 1rem;
+}
+
+#menu-container {
+    border: solid black 2px;
+    border-radius: 20px;
+}
+
+.hamburger-menu {
+    width: 85px;
+    padding: 20px;
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
+}
+
+#menu-container:active {
+    background-color: black;
+}
+
+.hamburger-menu:active {
+    filter: invert(100%);
+}
+
+#side-menu {
+    height: 100%;
+    left: -75%;
+    transition: linear, left 0.3s ease-out;
+    margin: 0;
+    width: 75%;
+    font-size: xx-large;
+    transform: translate3d(0%, 0, 0);
+}
+
+.show #side-menu{
+    left: 0;
+}
+
+#side-menu .modal-content {
+    height: 100%;
+    border: none;
+    border-radius: 0;
+}
+
+.fade {
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+#mobile-nav {
+    flex-direction: column;
+}
+
+.mobile-nav-item .nav-link {
+    color: black;
+    font-size: xx-large;
+}
+
+.mobile-nav-item .nav-link:hover {
+    color: #0056b3;
+}
+
+.mobile-social-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mobile-social-container img {
+    width: 50px;
+    height: 50px;
+}
+
+#side-menu .modal-footer {
+    justify-content: center;
+    border: none;
+}
+
+#side-menu .modal-footer a {
+    margin: 20px;
+}
+
+@media (min-width: 768px) {
+    #side-menu {
+        display: none;
+    }
+    .fade {
+        display: none;
+    }
+    .home-logo {
+        width: 100px;
+    }
+    #menu-link {
+        display: none;
+    }
+    .nav-link {
+        font-size: 20px;
+        color: black;
+    }
+    .nav-container {
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .non-mobile-nav-item {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+    header {
+        width: 100%;
+        z-index: 100;
+    }
+    .home-logo {
+        width: 100px;
+    }
+    .nav-container {
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .non-mobile-nav-item {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav-link {
+        font-size: 30px;
+        color: black;
+    }
+}

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Gothic;
+    src: url("../fonts/Quicksand/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-family: Gothic-Fat;
+    src: url("../fonts/Quicksand/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: Gothic-Bold;
+    src: url("../fonts/Quicksand/Quicksand-SemiBold.ttf");
+}
+
+.services-banner {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.services-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.services-heading {
+    font-family: Gothic-Fat;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    color: crimson;
+}
+
+.design-sections {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.description {
+    font-family: Gothic-Bold;
+    align-self: center;
+    width: 100%;
+    height: 10vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-family: Gothic;
+}
+
+.wedding-container {
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.wedding-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.tabletop-container {
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
+    height: 50vh;
+    margin-top: 100px;
+}
+
+.tabletop-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.special-design-container {
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
+    height: 50vh;
+    margin-top: 100px;
+}
+
+.special-design-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .description {
+        align-self: center;
+        width: 50%;
+    }
+    .wedding-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .wedding-container img {
+        width: 50%;
+        object-fit: cover;
+    }
+    .tabletop-container {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 0;
+    }
+    .tabletop-container img {
+        width: 50%;
+        object-fit: cover;
+    }
+    .special-design-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+    }
+    .special-design-container img {
+        width: 50%;
+        object-fit: cover;
+    }
+}

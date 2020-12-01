@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Gothic-Bold;
+    src: url("../fonts/Quicksand/Quicksand-SemiBold.ttf");
+}
+
+.intro-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.headline {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 2;
+}
+
+.headline h1,
+h3 {
+    font-family: Gothic-Bold;
+    color: white;
+}
+
+.intro-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    margin: auto;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 1;
+}

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Gothic;
+    src: url("../fonts/Quicksand/Quicksand-Regular.ttf");
+}
+
+.heading {
+    width: 100%;
+}
+
+.about-container {
+    align-items: center;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-direction: column;
+}
+
+#profile-pic {
+    width: 80%;
+    height: auto;
+    margin: 2rem;
+}
+
+#about-description {
+    font-family: Gothic;
+    margin: 5rem;
+    text-align: justify;
+    align-self: center;
+    font-size: x-large;
+}
+
+@media (min-width: 1000px) {
+    .heading {
+        width: 100%;
+    }
+    #profile-pic {
+        width: 50%;
+        margin: 3rem;
+    }
+    #about-description {
+        margin: 2rem;
+        text-align: justify;
+        align-self: center;
+        font-size: xx-large;
+    }
+}
+
+@media (min-width:1200px) {
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
