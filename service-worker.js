@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/flower-man/precache-manifest.fc6ff8c1cd2c726e1aad05d7e73367dc.js"
+  "/flower-man/precache-manifest.5140b3cbf8a0fc567fe67705511d99c2.js"
 );
 
 self.addEventListener('message', (event) => {

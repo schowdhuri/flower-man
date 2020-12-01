@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/flower-man/static/css/main.40391539.chunk.css",
-    "main.js": "/flower-man/static/js/main.13dc992b.chunk.js",
-    "main.js.map": "/flower-man/static/js/main.13dc992b.chunk.js.map",
+    "main.js": "/flower-man/static/js/main.2df82f26.chunk.js",
+    "main.js.map": "/flower-man/static/js/main.2df82f26.chunk.js.map",
     "runtime-main.js": "/flower-man/static/js/runtime-main.a05a7c84.js",
     "runtime-main.js.map": "/flower-man/static/js/runtime-main.a05a7c84.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/flower-man/static/css/2.3cf5d70f.chunk.css",
     "static/js/2.1220c847.chunk.js": "/flower-man/static/js/2.1220c847.chunk.js",
     "static/js/2.1220c847.chunk.js.map": "/flower-man/static/js/2.1220c847.chunk.js.map",
     "index.html": "/flower-man/index.html",
-    "precache-manifest.fc6ff8c1cd2c726e1aad05d7e73367dc.js": "/flower-man/precache-manifest.fc6ff8c1cd2c726e1aad05d7e73367dc.js",
+    "precache-manifest.5140b3cbf8a0fc567fe67705511d99c2.js": "/flower-man/precache-manifest.5140b3cbf8a0fc567fe67705511d99c2.js",
     "service-worker.js": "/flower-man/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/flower-man/static/css/2.3cf5d70f.chunk.css.map",
     "static/css/main.40391539.chunk.css.map": "/flower-man/static/css/main.40391539.chunk.css.map",
@@ -46,6 +46,6 @@
     "static/css/2.3cf5d70f.chunk.css",
     "static/js/2.1220c847.chunk.js",
     "static/css/main.40391539.chunk.css",
-    "static/js/main.13dc992b.chunk.js"
+    "static/js/main.2df82f26.chunk.js"
   ]
 }
