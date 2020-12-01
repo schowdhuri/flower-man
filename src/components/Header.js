@@ -50,29 +50,29 @@ export default class Header extends Component {
       <header>
         <Nav className="nav-container" onMouseLeave={this.disableServices}>
           <Nav.Item className="non-mobile-nav-item">
-            <Link to="/services" onMouseEnter={this.disableServices}>
+            <Nav.Link href="/services" onMouseEnter={this.disableServices}>
               SERVICES
-            </Link>
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item className="non-mobile-nav-item">
-            <Link to="/designs" onMouseEnter={this.disableServices}>
+            <Nav.Link href="/designs" onMouseEnter={this.disableServices}>
               CREATIONS
-            </Link>
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item id="home-link">
-            <Link to="/" onMouseEnter={this.disableServices}>
+            <Nav.Link href="/" onMouseEnter={this.disableServices}>
               <img src={logo} className="home-logo" />
-            </Link>
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item className="non-mobile-nav-item">
-            <Link to="/about" onMouseEnter={this.disableServices}>
+            <Nav.Link href="/about" onMouseEnter={this.disableServices}>
               ABOUT
-            </Link>
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item className="non-mobile-nav-item">
-            <Link to="/contact" onMouseEnter={this.disableServices}>
+            <Nav.Link href="/contact" onMouseEnter={this.disableServices}>
               CONTACT
-            </Link>
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item id="menu-link" onClick={this.toggleMenu}>
             <div id="menu-container">
@@ -90,24 +90,24 @@ export default class Header extends Component {
           <Modal.Body>
             <Nav id="mobile-nav" onMouseLeave={this.disableServices}>
               <Nav.Item className="mobile-nav-item">
-                <Link to="/services" onClick={this.disableMenu}>
+                <Nav.Link href="/services" onClick={this.disableMenu}>
                   SERVICES
-                </Link>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item className="mobile-nav-item">
-                <Link to="/designs" onClick={this.disableMenu}>
+                <Nav.Link href="/designs" onClick={this.disableMenu}>
                   CREATIONS
-                </Link>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item className="mobile-nav-item">
-                <Link to="/about" onClick={this.disableMenu}>
+                <Nav.Link href="/about" onClick={this.disableMenu}>
                   ABOUT
-                </Link>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item className="mobile-nav-item">
-                <Link to="/contact" onClick={this.disableMenu}>
+                <Nav.Link href="/contact" onClick={this.disableMenu}>
                   CONTACT
-                </Link>
+                </Nav.Link>
               </Nav.Item>
             </Nav>
           </Modal.Body>
