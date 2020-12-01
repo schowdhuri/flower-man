@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/flower-man/static/css/main.40391539.chunk.css",
-    "main.js": "/flower-man/static/js/main.2df82f26.chunk.js",
-    "main.js.map": "/flower-man/static/js/main.2df82f26.chunk.js.map",
+    "main.js": "/flower-man/static/js/main.c17e5558.chunk.js",
+    "main.js.map": "/flower-man/static/js/main.c17e5558.chunk.js.map",
     "runtime-main.js": "/flower-man/static/js/runtime-main.a05a7c84.js",
     "runtime-main.js.map": "/flower-man/static/js/runtime-main.a05a7c84.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/flower-man/static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.1220c847.chunk.js": "/flower-man/static/js/2.1220c847.chunk.js",
-    "static/js/2.1220c847.chunk.js.map": "/flower-man/static/js/2.1220c847.chunk.js.map",
+    "static/js/2.08dc9f56.chunk.js": "/flower-man/static/js/2.08dc9f56.chunk.js",
+    "static/js/2.08dc9f56.chunk.js.map": "/flower-man/static/js/2.08dc9f56.chunk.js.map",
     "index.html": "/flower-man/index.html",
-    "precache-manifest.5140b3cbf8a0fc567fe67705511d99c2.js": "/flower-man/precache-manifest.5140b3cbf8a0fc567fe67705511d99c2.js",
+    "precache-manifest.832b74e059c5f3e954436c33781c800a.js": "/flower-man/precache-manifest.832b74e059c5f3e954436c33781c800a.js",
     "service-worker.js": "/flower-man/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/flower-man/static/css/2.3cf5d70f.chunk.css.map",
     "static/css/main.40391539.chunk.css.map": "/flower-man/static/css/main.40391539.chunk.css.map",
-    "static/js/2.1220c847.chunk.js.LICENSE.txt": "/flower-man/static/js/2.1220c847.chunk.js.LICENSE.txt",
+    "static/js/2.08dc9f56.chunk.js.LICENSE.txt": "/flower-man/static/js/2.08dc9f56.chunk.js.LICENSE.txt",
     "static/media/Logo.png": "/flower-man/static/media/Logo.b8489f7c.png",
     "static/media/Designs.css": "/flower-man/static/media/Quicksand-SemiBold.c82b184b.ttf",
     "static/media/Contact.css": "/flower-man/static/media/Quicksand-Medium.865b25e4.ttf",
@@ -44,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.a05a7c84.js",
     "static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.1220c847.chunk.js",
+    "static/js/2.08dc9f56.chunk.js",
     "static/css/main.40391539.chunk.css",
-    "static/js/main.2df82f26.chunk.js"
+    "static/js/main.c17e5558.chunk.js"
   ]
 }

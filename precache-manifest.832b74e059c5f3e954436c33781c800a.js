@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ca7652221e9213557e8865611d1d37c",
+    "revision": "4dfbd205988708b63b76585a4a386f6b",
     "url": "/flower-man/index.html"
   },
   {
-    "revision": "8bb3d17e4d47608c2a0f",
+    "revision": "29135be0285247026f6b",
     "url": "/flower-man/static/css/2.3cf5d70f.chunk.css"
   },
   {
-    "revision": "3a7ef2ba1e5047ddd7be",
+    "revision": "561c8d95af168f4a6b06",
     "url": "/flower-man/static/css/main.40391539.chunk.css"
   },
   {
-    "revision": "8bb3d17e4d47608c2a0f",
-    "url": "/flower-man/static/js/2.1220c847.chunk.js"
+    "revision": "29135be0285247026f6b",
+    "url": "/flower-man/static/js/2.08dc9f56.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/flower-man/static/js/2.1220c847.chunk.js.LICENSE.txt"
+    "url": "/flower-man/static/js/2.08dc9f56.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a7ef2ba1e5047ddd7be",
-    "url": "/flower-man/static/js/main.2df82f26.chunk.js"
+    "revision": "561c8d95af168f4a6b06",
+    "url": "/flower-man/static/js/main.c17e5558.chunk.js"
   },
   {
     "revision": "cff2cca54f69cc6a4335",
